@@ -1,2 +1,2 @@
 ## Summer of PWN
-Repo for exploit scripts completed for PWN challenges
+Repo for exploit scripts completed for pwn challenges.
